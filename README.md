@@ -108,8 +108,27 @@ Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
-
+```
 Run the Streamlit application:
 
 ```bash
 streamlit run app.py
+```
+
+## Live Application
+
+[Open the Streamlit application](https://credit-card-default-ml-2025ac05348.streamlit.app/)
+
+## Conclusion
+
+Among the five evaluated classification models, Random Forest
+provided the strongest overall performance. It achieved the highest
+Accuracy (0.8105), AUC (0.7592), F1 Score (0.4562), and MCC (0.3711).
+
+Logistic Regression achieved the highest Precision (0.6923), while
+Naive Bayes achieved the highest Recall (0.9714). However, Naive Bayes
+also produced substantially lower Accuracy and Precision due to a large
+number of false-positive predictions.
+
+Therefore, Random Forest was selected as the overall best-performing
+model based on the balance across the evaluation metrics.
