@@ -66,31 +66,16 @@ The models were evaluated using:
 
 ## Model Observations
 
-### Logistic Regression
+## Model Observations
 
-Logistic Regression achieved an accuracy of 0.8088 and the highest precision of 0.6923. However, its recall of 0.2442 indicates that it missed a significant number of actual defaulters.
-
-### Decision Tree
-
-Decision Tree achieved an accuracy of 0.7185 and an AUC of 0.6055. Its overall performance was lower than the other conventional classification models.
-
-### KNN
-
-KNN achieved an accuracy of 0.7948 and an F1 score of 0.4361. It provided moderate performance but remained below Random Forest overall.
-
-### Naive Bayes
-
-Naive Bayes achieved the highest recall of 0.9714, identifying almost all actual defaulters. However, its precision of 0.2340 and accuracy of 0.2903 were very low because it generated a large number of false-positive predictions.
-
-### Random Forest
-
-Random Forest achieved the highest accuracy (0.8105), AUC (0.7592), F1 score (0.4562), and MCC (0.3711). It provided the best overall balance among the evaluated models.
-
-## Overall Winner
-
-**Random Forest** was selected as the overall best-performing model because it achieved the highest values for four of the six evaluation metrics: Accuracy, AUC, F1 Score, and MCC.
-
-Although Logistic Regression achieved higher precision and Naive Bayes achieved higher recall, Random Forest provided the strongest overall balance.
+| Model | Observation |
+|---|---|
+| **Logistic Regression** | Achieved an accuracy of 0.8088 and the highest precision of 0.6923. However, its recall of 0.2442 indicates that it missed a significant number of actual defaulters. |
+| **Decision Tree** | Achieved an accuracy of 0.7185 and an AUC of 0.6055. Its overall performance was lower than the other conventional classification models. |
+| **KNN** | Achieved an accuracy of 0.7948 and an F1 score of 0.4361. It provided moderate performance but remained below Random Forest overall. |
+| **Naive Bayes** | Achieved the highest recall of 0.9714, identifying almost all actual defaulters. However, its precision of 0.2340 and accuracy of 0.2903 were very low because it generated a large number of false-positive predictions. |
+| **Random Forest** | Achieved the highest accuracy (0.8105), AUC (0.7592), F1 score (0.4562), and MCC (0.3711). It provided the best overall balance among the evaluated models. |
+| 🏆 **Overall Winner — Random Forest** | **Selected as the overall best-performing model**, achieving the highest values for four of the six evaluation metrics: Accuracy, AUC, F1 Score, and MCC. Logistic Regression achieved higher precision, while Naive Bayes achieved higher recall, but Random Forest provided the strongest overall balance. |
 
 ## Streamlit Application
 
