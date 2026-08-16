@@ -66,8 +66,6 @@ The models were evaluated using:
 
 ## Model Observations
 
-## Model Observations
-
 | Model | Observation |
 |---|---|
 | **Logistic Regression** | Achieved an accuracy of 0.8088 and the highest precision of 0.6923. However, its recall of 0.2442 indicates that it missed a significant number of actual defaulters. |
