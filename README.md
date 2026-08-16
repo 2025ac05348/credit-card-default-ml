@@ -43,6 +43,13 @@ Five classification models were implemented:
 4. Gaussian Naive Bayes
 5. Random Forest
 
+## Model Training Notebook
+
+The complete model development, preprocessing, training, evaluation, and
+analysis are documented in the following Jupyter/Google collab Notebook:
+
+[View the ML Assignment 2 Notebook](https://github.com/2025ac05348/credit-card-default-ml/blob/main/model/2025AC05348_ML_Assignment2.ipynb)
+
 ## Evaluation Metrics
 
 The models were evaluated using:
