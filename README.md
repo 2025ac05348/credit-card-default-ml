@@ -20,6 +20,19 @@ The **Default of Credit Card Clients** dataset from the UCI Machine Learning Rep
 
 The features include demographic information, credit limit, payment status, bill amounts, and previous payment amounts.
 
+### Train-Test Split
+
+The dataset was divided into:
+
+- Training set: 24,000 instances (80%)
+- Test set: 6,000 instances (20%)
+
+## Data Preprocessing
+
+The dataset was preprocessed before model training and evaluation. 
+The same fitted preprocessing pipeline was saved as `preprocessor.pkl`
+and reused by the Streamlit application when processing test data.
+
 ## Machine Learning Models
 
 Five classification models were implemented:
@@ -95,3 +108,8 @@ Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
+
+Run the Streamlit application:
+
+```bash
+streamlit run app.py
